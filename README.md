@@ -110,14 +110,14 @@ Use maven command in the terminal to clean up history build files and get new .w
 ```shell
 C:\JavaProject\helloweb> mvn clean package
 ```
-![mvn package](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/terminal_mvn_package.PNG)
+![mvn package](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/terminal_mvn_package.PNG)
 
 You will find .war package in helloweb\target\
 
 ### Debugging
 Click the right mouse button in the VS Code on .war package, and select "Debug on Tomcat Server"
 
-![debugging](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/debug.png.jpg)
+![debugging](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/debug.png.jpg)
 
 Then the Tomcat server is started in debugging mode.
 
@@ -135,7 +135,7 @@ Then, put the mapping file "filepathinfo.csv" on the C:\tomcat which is the defa
 
 In the end, one way to start the server is C:\tomcat\bin\Tomcat8w.exe.
 
-![run on tomcat](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/run.png.jpg)
+![run on tomcat](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/run.png.jpg)
 
 ### Test
 Remember to add token in Headers before sending HTTP request. 
@@ -144,21 +144,21 @@ There is a repository which is an example of Python script sending GET request t
 
 Also, using [Postman] is another good choice to test this API.
 
-![postman](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/postman.png.jpg)
+![postman](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/postman.png.jpg)
 
 Now let's do a test:
 
 Firstly, create a new microsoft word document named *tests.docx* at *C:\download_files*, which looks like this:
 
-![new file](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/new_word_doc.png.jpg)
+![new file](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/new_word_doc.png.jpg)
 
 Secondly, deploy the .war package and edit the mapping file on *C:\tomcat*.
 
-![mapping](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/set_mapping.png.jpg)
+![mapping](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/set_mapping.png.jpg)
 
 Then, start the Tomcat server, and send get requests through Postman or Python scripts. You will see the results:
 
-![results](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/test_result.png.jpg)
+![results](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/test_result.png.jpg)
 
 ## Frequently Asked Questions
 
@@ -175,7 +175,7 @@ C:\JavaProject\helloweb> mvn install
 For logs in tomcat, you could check *C:\tomcat\logs*.
 
 For logs in tomcat of vscode, check here:
-![results](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/log_in_vscode.png.jpg)
+![results](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/log_in_vscode.png.jpg)
 
 ### Why Maven in VS Code could not resolve all dependencies? How to make local repo of maven works in VS Code?
 You could try cleaning up VS Code's workspace directory in *C:\Users\your_username\AppData\Roaming\Code\User\workspaceStorage*,
