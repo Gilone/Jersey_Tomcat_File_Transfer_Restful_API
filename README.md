@@ -69,7 +69,7 @@ This section will show how to prepare an environment for debugging and deploymen
 ```
   Do not forget to setup Tomcat extensions in VS Code: 
   
-  ![setup tomcat](https://gitlabe2.ext.net.nokia.com/fehao/java_file_sever/raw/master/Image/tomcat_extensions.png.jpg)
+  ![setup tomcat](https://raw.githubusercontent.com/Gilone/jersey_tomcat_file_transfer_restful_api_with_guide/main/Image/tomcat_extensions.png.jpg)
 
   Note that the tomcat in VS Code has a configuration file for **itself**, please right-click on the tomcat in VS Code and select *open server configuration* to set up ports.
 
