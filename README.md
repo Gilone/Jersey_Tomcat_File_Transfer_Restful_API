@@ -140,7 +140,7 @@ In the end, one way to start the server is C:\tomcat\bin\Tomcat8w.exe.
 ### Test
 Remember to add token in Headers before sending HTTP request. 
 
-There is a repository which is an example of Python script sending GET request to API. https://gitlabe2.ext.net.nokia.com/fehao/file_server_download_client
+There is a repository which is an example of Python script sending GET request to API. https://github.com/Gilone/restful_api_client_sample_with_python_requests
 
 Also, using [Postman] is another good choice to test this API.
 
